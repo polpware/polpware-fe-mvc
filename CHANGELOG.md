@@ -1,3 +1,14 @@
+## 13.0.0 (April 28, 2022)
+  - Fix dependencies
+  - Upgrade to Angular 13
+  - Upgrade to angular 12
+  - Upgrade to ngx 11
+  - Upgrade to ngx 10
+  - Switch to yarn berry
+  - Prepare for upgrading
+  - k
+  - Update version
+
 ## 9.0.2 (January 27, 2021)
   - Fix dependencies
   - Update version
