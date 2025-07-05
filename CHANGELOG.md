@@ -1,3 +1,13 @@
+## 15.0.0 (July 05, 2025)
+  - Installed libs
+  - Updated custom libs
+  - Updated packages
+  - Updated to Angular 15
+  - Publish Version 14
+  - k
+  - Scripts
+  - Bumped to Version 14
+
 ## 14.0.0 (July 05, 2025)
   - Keep the test for the main projects
   - Fixed building project
