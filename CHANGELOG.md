@@ -1,3 +1,23 @@
+## 14.0.0 (July 05, 2025)
+  - Keep the test for the main projects
+  - Fixed building project
+  - Renaming
+  - Clean up
+  - k
+  - Updated custom libs
+  - k
+  - Removed doc script
+  - Updated dependencies for Angular 14
+  - Updated to Angular 14
+  - Removed inactive libs
+  - todo
+  - Fixed libs
+  - k
+  - Fix submodule url
+  - Fix testing
+  - build script
+  - Bump version
+
 ## 13.0.0 (April 28, 2022)
   - Fix dependencies
   - Upgrade to Angular 13
