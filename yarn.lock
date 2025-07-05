@@ -2127,27 +2127,27 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@ngrx/store-devtools@npm:^14.0.0":
-  version: 14.3.3
-  resolution: "@ngrx/store-devtools@npm:14.3.3"
+"@ngrx/store-devtools@npm:^15.0.0":
+  version: 15.4.0
+  resolution: "@ngrx/store-devtools@npm:15.4.0"
   dependencies:
     tslib: ^2.0.0
   peerDependencies:
-    "@ngrx/store": 14.3.3
+    "@ngrx/store": 15.4.0
     rxjs: ^6.5.3 || ^7.5.0
-  checksum: 0cceab4e8ae33be45af64a0092f124ed67749160589a81086bf3ffae1ac7b49927f23bf77a0b2b6a33bc3ab3a8d6bc9d8f7dca90e5cc8faefa051e8c7329884a
+  checksum: cce09394386de064a7c2bfd02792b38888da231567f4ff4584cc0920a33f2a6b3055db6ea543b78b1113ff844e628976dc8f92d90fdfcb22fcf2839dfbc1585d
   languageName: node
   linkType: hard
 
-"@ngrx/store@npm:^14.0.0":
-  version: 14.3.3
-  resolution: "@ngrx/store@npm:14.3.3"
+"@ngrx/store@npm:^15.0.0":
+  version: 15.4.0
+  resolution: "@ngrx/store@npm:15.4.0"
   dependencies:
     tslib: ^2.0.0
   peerDependencies:
-    "@angular/core": ^14.0.0
+    "@angular/core": ^15.0.0
     rxjs: ^6.5.3 || ^7.5.0
-  checksum: 0920d753896b90630a979f0e25adfd412f7105ef3e8665711939199dfae37d6436a0805deca43d03db454085027ebe1e69892c157865cc332526f1b181881a25
+  checksum: 444ab9c3da0f69fda6c09a92d50de5b828b3dce221abb4167aecbac3a120102ccbd64d3060c173b0db21b29632b850646a4d9d977a15c65d45a244f2352b3c5e
   languageName: node
   linkType: hard
 
@@ -2448,20 +2448,20 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@polpware/fe-data@https://github.com/polpware-frontend-modules/polpware-fe-data.git#ngx14":
-  version: 14.0.0
-  resolution: "@polpware/fe-data@https://github.com/polpware-frontend-modules/polpware-fe-data.git#commit=429f43947b54ecf10e8868577afbe87f44219631"
+"@polpware/fe-data@https://github.com/polpware-frontend-modules/polpware-fe-data.git#ngx15":
+  version: 15.0.0
+  resolution: "@polpware/fe-data@https://github.com/polpware-frontend-modules/polpware-fe-data.git#commit=14430f239edec8ba0e9bcf15605d26b15497fbde"
   dependencies:
     tslib: ^2.0.0
   peerDependencies:
-    "@angular/common": ^13.0.0
-    "@angular/core": ^13.0.0
-    "@ngrx/store": ^14.0.0
-    "@ngrx/store-devtools": ^14.0.0
+    "@angular/common": ^15.0.0
+    "@angular/core": ^15.0.0
+    "@ngrx/store": ^15.0.0
+    "@ngrx/store-devtools": ^15.0.0
     "@polpware/fe-dependencies": ^1.6.0
-    "@polpware/fe-utilities": ^14.0.0
+    "@polpware/fe-utilities": ^15.0.0
     polpware-tinymce-tailor: ^4.7.0
-  checksum: a2e61cd7c5b9e6a6c60221184c9e1c39bee7d24273b61259eb1ad7dd31ced8e3d6fbd8bb9e96fbda2b77a5865c5ebb49da5868232a84577fb938a6a34abd7b2b
+  checksum: 2b2538832827c1b10da86c5e9cf97e262ecf1388ae06aab3fb1f9b92943cee4c4e848754cb6ce980aca8453c3789a68418d9dea173d82e1b5518e393b0fdf75f
   languageName: node
   linkType: hard
 
@@ -2486,16 +2486,16 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@polpware/fe-utilities@https://github.com/polpware-frontend-modules/polpware-fe-utilities.git#ngx14":
-  version: 14.0.0
-  resolution: "@polpware/fe-utilities@https://github.com/polpware-frontend-modules/polpware-fe-utilities.git#commit=ff83dcdd34442702bb44a1145a5a86325750d2eb"
+"@polpware/fe-utilities@https://github.com/polpware-frontend-modules/polpware-fe-utilities.git#ngx15":
+  version: 15.0.0
+  resolution: "@polpware/fe-utilities@https://github.com/polpware-frontend-modules/polpware-fe-utilities.git#commit=fb158115f1b821082ab66a61f90b2182bd95f097"
   dependencies:
     tslib: ^2.3.0
   peerDependencies:
-    "@angular/common": ^14.0.0
-    "@angular/core": ^14.0.0
+    "@angular/common": ^15.0.0
+    "@angular/core": ^15.0.0
     moment: ^2.0.0
-  checksum: ed285ffa51a2b9944a837a8aa68c7ff8a318ebb51f3115da937f8c3b10d232bd155f05274050abc3bb31c6fd42c25e70eafdc4d25207d109e32d90c10fc6918b
+  checksum: 73e32623be135a7b3f156da56429341c58748f09a637f668aa9b10323907d54c9d9e2183b09daf8b64319dfa4addaf53df54a65ee3b897715993952a4c086d52
   languageName: node
   linkType: hard
 
@@ -9418,11 +9418,11 @@ __metadata:
     "@angular/platform-browser": ^15.2.10
     "@angular/platform-browser-dynamic": ^15.2.10
     "@angular/router": ^15.2.10
-    "@ngrx/store": ^14.0.0
-    "@ngrx/store-devtools": ^14.0.0
-    "@polpware/fe-data": "https://github.com/polpware-frontend-modules/polpware-fe-data.git#ngx14"
+    "@ngrx/store": ^15.0.0
+    "@ngrx/store-devtools": ^15.0.0
+    "@polpware/fe-data": "https://github.com/polpware-frontend-modules/polpware-fe-data.git#ngx15"
     "@polpware/fe-dependencies": "https://github.com/polpware-frontend-modules/polpware-fe-dependencies.git"
-    "@polpware/fe-utilities": "https://github.com/polpware-frontend-modules/polpware-fe-utilities.git#ngx14"
+    "@polpware/fe-utilities": "https://github.com/polpware-frontend-modules/polpware-fe-utilities.git#ngx15"
     "@types/jasmine": ~5.1.8
     "@types/node": ^12.11.1
     codelyzer: ^6.0.0

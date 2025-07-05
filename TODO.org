@@ -17,6 +17,8 @@
   - [ ] bump-version
   - [ ] npm run bump
   - [ ] make prepare-ngx...
+  - [ ] npm run build
+  - [ ] npm run test
   - [ ] npm run test-lib
   - [ ] npm run lib
   - [ ] make copy
