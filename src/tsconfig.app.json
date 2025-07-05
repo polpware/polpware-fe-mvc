@@ -9,8 +9,6 @@
     "polyfills.ts"
   ],
     "include": [
-        "**/*.spec.ts",
-        "**/*.d.ts",
-        "../node_modules/@polpware/fe-data/src/**/*.d.ts"        
+        "src/**/*.d.ts"
     ]
 }

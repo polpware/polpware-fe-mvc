@@ -5,7 +5,7 @@
   "projects": {
     "polpware-fe-mvc-host": {
       "root": "",
-      "sourceRoot": "host",
+      "sourceRoot": "src",
       "projectType": "application",
       "prefix": "app",
       "schematics": {
@@ -18,16 +18,16 @@
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
             "outputPath": "dist/polpware-fe-mvc-host",
-            "index": "host/index.html",
-            "main": "host/main.ts",
-            "tsConfig": "host/tsconfig.app.json",
-            "polyfills": "host/polyfills.ts",
+            "index": "src/index.html",
+            "main": "src/main.ts",
+            "tsConfig": "src/tsconfig.app.json",
+            "polyfills": "src/polyfills.ts",
             "assets": [
-              "host/assets",
-              "host/favicon.ico"
+              "src/assets",
+              "src/favicon.ico"
             ],
             "styles": [
-              "host/styles.css"
+              "src/styles.css"
             ],
             "scripts": [],
             "vendorChunk": true,
@@ -48,8 +48,8 @@
               "buildOptimizer": true,
               "fileReplacements": [
                 {
-                  "replace": "host/environments/environment.ts",
-                  "with": "host/environments/environment.prod.ts"
+                  "replace": "src/environments/environment.ts",
+                  "with": "src/environments/environment.prod.ts"
                 }
               ],
               "budgets": [
@@ -87,17 +87,17 @@
         "test": {
           "builder": "@angular-devkit/build-angular:karma",
           "options": {
-            "main": "host/test.ts",
-            "karmaConfig": "host/karma.conf.js",
-            "polyfills": "host/polyfills.ts",
-            "tsConfig": "host/tsconfig.spec.json",
+            "main": "src/test.ts",
+            "karmaConfig": "src/karma.conf.js",
+            "polyfills": "src/polyfills.ts",
+            "tsConfig": "src/tsconfig.spec.json",
             "scripts": [],
             "styles": [
-              "host/styles.css"
+              "src/styles.css"
             ],
             "assets": [
-              "host/assets",
-              "host/favicon.ico"
+              "src/assets",
+              "src/favicon.ico"
             ]
           }
         }
