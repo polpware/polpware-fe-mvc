@@ -1,3 +1,10 @@
+## 17.0.0 (July 06, 2025)
+  - Update depndencies for Angular 17
+  - Upgrade to Angular 17
+  - Publish Version 16
+  - Prepare for publish
+  - bumped to Version 16
+
 ## 16.0.0 (July 06, 2025)
   - k
   - Updated dependencies on Angular
