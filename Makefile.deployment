@@ -25,7 +25,7 @@ prepare-ngx16:
 	cd $(DeployTarget) && git checkout ngx16 && git pull
 
 prepare-ngx17:
-    @echo "--> Ensuring branch 'ngx17' exists and is tracking the remote..."
+	@echo "--> Ensuring branch 'ngx17' exists and is tracking the remote..."
 	cd $(DeployTarget) && \
 	(git checkout ngx17 || (git checkout -b ngx17 && git push -u origin ngx17)) && \
 	git pull
