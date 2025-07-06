@@ -1,3 +1,11 @@
+## 16.0.0 (July 06, 2025)
+  - k
+  - Updated dependencies on Angular
+  - Updated to Angular 16
+  - Publish version 15
+  - tool chain
+  - Bumped to Version 15
+
 ## 15.0.0 (July 05, 2025)
   - Installed libs
   - Updated custom libs
