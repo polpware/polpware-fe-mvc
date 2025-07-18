@@ -1,3 +1,15 @@
+## 18.0.0 (July 17, 2025)
+  - Install libs
+  - Update custom libs
+  - Update deps for Angular 18
+  - Update to Angular 18
+  - Update toolchain
+  - Publish Version 17
+  - Fix running the app-level tests
+  - Fix bugs
+  - Update deployment toolchain
+  - Bump to Version 17
+
 ## 17.0.0 (July 06, 2025)
   - Update depndencies for Angular 17
   - Upgrade to Angular 17
