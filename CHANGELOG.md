@@ -1,3 +1,11 @@
+## 19.1.0 (September 19, 2025)
+  - Replace amd modules with es modules
+  - Update packages
+  - Configure typescript behavior
+  - Switch to ES module
+  - Publish Version 19
+  - Bump to Version 19
+
 ## 19.0.0 (July 17, 2025)
   - Install libs
   - Update custom libs
