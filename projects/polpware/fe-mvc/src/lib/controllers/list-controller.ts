@@ -1,7 +1,4 @@
-import * as dependencies from '@polpware/fe-dependencies';
-
-const ClassBuilder = dependencies.Class;
-
+import ClassBuilder from '@polpware/tinymce-tailor/api/util/Class';
 
 export const ListControllerCtor = ClassBuilder.extend({
 

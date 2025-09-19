@@ -1,8 +1,8 @@
-import * as dependencies from '@polpware/fe-dependencies';
+import { legacyLibs } from '@polpware/amd-bridge';
 
 import { IViewInstance } from './interfaces';
 
-const _ = dependencies.underscore;
+const _ = legacyLibs._;
 const noop = _.noop;
 
 export const noopViewInstance: IViewInstance = {
