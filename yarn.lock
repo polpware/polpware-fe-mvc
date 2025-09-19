@@ -3291,13 +3291,13 @@ __metadata:
   linkType: hard
 
 "@polpware/tinymce-tailor@https://github.com/polpware-frontend-modules/polpware-tinymce-util.git#esm":
-  version: 0.1
-  resolution: "@polpware/tinymce-tailor@https://github.com/polpware-frontend-modules/polpware-tinymce-util.git#commit=4f27f3cbcb2516dc9a8eb8ab19a76444fc1e76bc"
+  version: 0.2.0
+  resolution: "@polpware/tinymce-tailor@https://github.com/polpware-frontend-modules/polpware-tinymce-util.git#commit=fb7335ff33b007a91eb6e5391ab68068ef7e6a32"
   dependencies:
     "@ephox/katamari": ^9.1.6
     "@ephox/sand": ^6.0.10
     "@ephox/sugar": ^9.3.1
-  checksum: ac2e798dc896f9a27a98ad07f0c5d11c9a497d46df2355d4d73c50fbc78aa3b36d687af3bb21dc6c1b1533bc996c98bc76b39aebb5ac03283e7b5ad38688d72c
+  checksum: 7e91b8cf62d39ce94bb32d3fc9de7001b5c362e2969e847f7a0ee33710bf01a184526db9a3bc4dab36f439b8a26bbe1adc8e4da91bafe11cc078bc876a1aca49
   languageName: node
   linkType: hard
 
