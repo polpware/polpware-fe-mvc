@@ -1757,6 +1757,43 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@ephox/dispute@npm:^1.0.3":
+  version: 1.0.16
+  resolution: "@ephox/dispute@npm:1.0.16"
+  dependencies:
+    tslib: ^2.0.0
+  checksum: f0ecfc90460d60a10154e1cb863af14e8cf563c79b2e3510dc34965f203f4f8e189f16e20151b46a48ef182f76a44f355b32bab2a9300f1895b8aed993c8c26b
+  languageName: node
+  linkType: hard
+
+"@ephox/katamari@npm:^9.1.6":
+  version: 9.1.6
+  resolution: "@ephox/katamari@npm:9.1.6"
+  dependencies:
+    "@ephox/dispute": ^1.0.3
+  checksum: f93798a98230c2d45f33aa5b5e5d4b80f048afe5c280fd6b1440ee94f6a144b083c126f4589846e403f9a9f5ed200f8167d55ce88d137bc5b92b0e5a43a0ed27
+  languageName: node
+  linkType: hard
+
+"@ephox/sand@npm:^6.0.10":
+  version: 6.0.10
+  resolution: "@ephox/sand@npm:6.0.10"
+  dependencies:
+    "@ephox/katamari": ^9.1.6
+  checksum: 77bec4978673860c07c69fc25b0cf984db7c2d5368ab4a70cb2386407cff89389e3fa24b20ba5145e8dbf2398c6892a20dcd62bf109938807ea697b492cbc0cb
+  languageName: node
+  linkType: hard
+
+"@ephox/sugar@npm:^9.3.1":
+  version: 9.3.1
+  resolution: "@ephox/sugar@npm:9.3.1"
+  dependencies:
+    "@ephox/katamari": ^9.1.6
+    "@ephox/sand": ^6.0.10
+  checksum: 7f7bc40cb8578d5ad088fc96046b025b74982b884798de7d4b866302d7997db06b113d0f96d8be84726cb06bf7fb3a98d5e314b3e728b48561edcf91ab0150f2
+  languageName: node
+  linkType: hard
+
 "@esbuild/aix-ppc64@npm:0.25.4":
   version: 0.25.4
   resolution: "@esbuild/aix-ppc64@npm:0.25.4"
@@ -3206,30 +3243,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@polpware/fe-data@https://github.com/polpware-frontend-modules/polpware-fe-data.git#ngx19":
-  version: 19.0.0
-  resolution: "@polpware/fe-data@https://github.com/polpware-frontend-modules/polpware-fe-data.git#commit=923d13f0963336db685ea68fe353143493e122c5"
+"@polpware/amd-bridge@https://github.com/polpware-frontend-modules/polpware-amd-bridge.git":
+  version: 2.0.0
+  resolution: "@polpware/amd-bridge@https://github.com/polpware-frontend-modules/polpware-amd-bridge.git#commit=003da586c208222ac213ec2cb053f3081097dbbf"
   dependencies:
-    tslib: ^2.0.0
-  peerDependencies:
-    "@angular/common": ^19.0.0
-    "@angular/core": ^19.0.0
-    "@ngrx/store": ^19.0.0
-    "@ngrx/store-devtools": ^19.0.0
-    "@polpware/fe-dependencies": ^1.6.0
-    "@polpware/fe-utilities": ^19.0.0
-    polpware-tinymce-tailor: ^4.7.0
-  checksum: dc4269a3457d38de34e941d3dcfd64b9b17d3da070c467fb6d8b6deacfae649c29ad3d00fbb0cc542e16bc63f92018cc3f1c1605e3125716e837b5a10889324d
-  languageName: node
-  linkType: hard
-
-"@polpware/fe-dependencies@https://github.com/polpware-frontend-modules/polpware-fe-dependencies.git":
-  version: 1.6.1
-  resolution: "@polpware/fe-dependencies@https://github.com/polpware-frontend-modules/polpware-fe-dependencies.git#commit=adcaeace5486084cce92ad197d3e7393c1efa4cf"
-  dependencies:
-    "@types/backbone": ^1.4.15
-    "@types/backbone.paginator": ^2.0.33
-    "@types/underscore": ^1.11.4
     backbone: ^1.4.0
     backbone.paginator: ^2.0.8
     constraintjs: "https://github.com/xlongtang/constraintjs.git"
@@ -3238,9 +3255,25 @@ __metadata:
     locache: "https://github.com/polpware/locache.git"
     meld: ^1.3.2
     model-js: ^0.2.5
-    polpware-tinymce-tailor: "https://github.com/polpware-frontend-modules/polpware-tinymce-tailor.git"
     when: ^3.7.8
-  checksum: 3afa9faafa34bcf92a02b7b79ef02cb18f922f763acdc81dfa8b770056bde47fd6d17ffd9790edc46981666553f47ae0ae61f18c7252296344098edefb3572c6
+  checksum: a490b05d2373c7ff432d4d98e2b3c676a6e6e918b8ebdcd9ed056108e4e4b7eb2e6687ccc2100e6d9245de1d6996ef83b635fc4b44434a2ce29a84ad8665b3b9
+  languageName: node
+  linkType: hard
+
+"@polpware/fe-data@https://github.com/polpware-frontend-modules/polpware-fe-data.git#esm":
+  version: 19.1.0
+  resolution: "@polpware/fe-data@https://github.com/polpware-frontend-modules/polpware-fe-data.git#commit=76fbbeea9a28b04901c7d15a3f3325a9ccfdcd65"
+  dependencies:
+    tslib: ^2.0.0
+  peerDependencies:
+    "@angular/common": ^19.0.0
+    "@angular/core": ^19.0.0
+    "@ngrx/store": ^19.0.0
+    "@ngrx/store-devtools": ^19.0.0
+    "@polpware/amd-bridge": ^2.0.0
+    "@polpware/fe-utilities": ^19.0.0
+    "@polpware/tinymce-tailor": ^0.1
+  checksum: b4699f6af870040b4d7e3a5b00806e0d12bf920db0d3d28f17972e529028088e76e70c29b30a28d230dd02d7d1c259f646cd7321622c05afb97ef98d15c47c65
   languageName: node
   linkType: hard
 
@@ -3254,6 +3287,17 @@ __metadata:
     "@angular/core": ^19.0.0
     moment: ^2.0.0
   checksum: 105c4a412eac08cf3f6c3b7c503bd545fe715c2d94c92d197ca3f597ceebbd54fa055e9c5f2f593f87c234cc1ebcb7716ea3e0976e0ca40303a98b5373980ca0
+  languageName: node
+  linkType: hard
+
+"@polpware/tinymce-tailor@https://github.com/polpware-frontend-modules/polpware-tinymce-util.git#esm":
+  version: 0.1
+  resolution: "@polpware/tinymce-tailor@https://github.com/polpware-frontend-modules/polpware-tinymce-util.git#commit=4f27f3cbcb2516dc9a8eb8ab19a76444fc1e76bc"
+  dependencies:
+    "@ephox/katamari": ^9.1.6
+    "@ephox/sand": ^6.0.10
+    "@ephox/sugar": ^9.3.1
+  checksum: ac2e798dc896f9a27a98ad07f0c5d11c9a497d46df2355d4d73c50fbc78aa3b36d687af3bb21dc6c1b1533bc996c98bc76b39aebb5ac03283e7b5ad38688d72c
   languageName: node
   linkType: hard
 
@@ -3703,16 +3747,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/backbone.paginator@npm:^2.0.33":
-  version: 2.0.36
-  resolution: "@types/backbone.paginator@npm:2.0.36"
-  dependencies:
-    "@types/backbone": "*"
-  checksum: 63bab2a56918f6c1d8c2fe3f8afc04c818c6c00ca74b6d7d0323120e50250d7a449fbe44cd0ce453c63721c1f98bf807b9fab4e6bbf73d1bcee72525832a418e
-  languageName: node
-  linkType: hard
-
-"@types/backbone@npm:*, @types/backbone@npm:^1.4.15":
+"@types/backbone@npm:^1.4.15":
   version: 1.4.23
   resolution: "@types/backbone@npm:1.4.23"
   dependencies:
@@ -3873,12 +3908,28 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@types/javascript-state-machine@npm:^2.4.6":
+  version: 2.4.6
+  resolution: "@types/javascript-state-machine@npm:2.4.6"
+  checksum: 185884da40f7102e71d95824015cbd0ba0811e258742f0aff55f7b7038564c9930fd158066105ac742a08fc22d17c4b87d6af98f26cc5125b1335d6e69ec8df6
+  languageName: node
+  linkType: hard
+
 "@types/jquery@npm:*":
   version: 3.5.32
   resolution: "@types/jquery@npm:3.5.32"
   dependencies:
     "@types/sizzle": "*"
   checksum: 7fe7251bda3fc9d80417ef7c88ad963ccb591706bca2fb84ea5d9600498a8f9911c32302f28fd1910bb212c34193f38f63818757a9833b70e1f46c3a98a17625
+  languageName: node
+  linkType: hard
+
+"@types/jquery@npm:^3.5.33":
+  version: 3.5.33
+  resolution: "@types/jquery@npm:3.5.33"
+  dependencies:
+    "@types/sizzle": "*"
+  checksum: 63a654cb5a141f794f8d2704891b851742bf40d1ef9c8ce7c38900b6e6aedded9324273d52a7a8ab5ddc17b395991b51e566119d4c14b160fef11342bdf18b3a
   languageName: node
   linkType: hard
 
@@ -4004,10 +4055,17 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/underscore@npm:*, @types/underscore@npm:^1.11.4":
+"@types/underscore@npm:*, @types/underscore@npm:^1.13.0":
   version: 1.13.0
   resolution: "@types/underscore@npm:1.13.0"
   checksum: 1411cbeb1b743629d504fcb2037b393d11eb207459b9d560f71304183115e30ba145f83b819ffcc8a0d5d4eccfb76bebb0ef7aab8f96a04d88d99ff9dfe503c6
+  languageName: node
+  linkType: hard
+
+"@types/when@npm:^2.4.41":
+  version: 2.4.41
+  resolution: "@types/when@npm:2.4.41"
+  checksum: e3517be8e5845c73ed52b04e50f5effbb5ef7f19cc579a7f016b8f282b6667e180a1cfa6d060a5a537bbc62a1b397fdf208045f0628a5935bed567c43462d462
   languageName: node
   linkType: hard
 
@@ -10533,11 +10591,17 @@ __metadata:
     "@angular/router": ^19.2.14
     "@ngrx/store": ^19.0.0
     "@ngrx/store-devtools": ^19.0.0
-    "@polpware/fe-data": "https://github.com/polpware-frontend-modules/polpware-fe-data.git#ngx19"
-    "@polpware/fe-dependencies": "https://github.com/polpware-frontend-modules/polpware-fe-dependencies.git"
+    "@polpware/amd-bridge": "https://github.com/polpware-frontend-modules/polpware-amd-bridge.git"
+    "@polpware/fe-data": "https://github.com/polpware-frontend-modules/polpware-fe-data.git#esm"
     "@polpware/fe-utilities": "https://github.com/polpware-frontend-modules/polpware-fe-utilities.git#ngx19"
+    "@polpware/tinymce-tailor": "https://github.com/polpware-frontend-modules/polpware-tinymce-util.git#esm"
+    "@types/backbone": ^1.4.15
     "@types/jasmine": ~5.1.8
+    "@types/javascript-state-machine": ^2.4.6
+    "@types/jquery": ^3.5.33
     "@types/node": ^20.11.0
+    "@types/underscore": ^1.13.0
+    "@types/when": ^2.4.41
     angular-eslint: ^19.0.0
     core-js: ^3.6.5
     eslint: ^9.0.0
@@ -10555,7 +10619,6 @@ __metadata:
     karma-jasmine-html-reporter: ~2.1.0
     moment: ^2.29.3
     ng-packagr: ^19.2.2
-    polpware-tinymce-tailor: "https://github.com/polpware-frontend-modules/polpware-tinymce-tailor.git"
     protractor: ~7.0.0
     rxjs: ^6.6.3
     ts-node: ~10.9.x
@@ -10566,13 +10629,6 @@ __metadata:
     zone.js: ~0.15.1
   languageName: unknown
   linkType: soft
-
-"polpware-tinymce-tailor@https://github.com/polpware-frontend-modules/polpware-tinymce-tailor.git":
-  version: 4.7.9
-  resolution: "polpware-tinymce-tailor@https://github.com/polpware-frontend-modules/polpware-tinymce-tailor.git#commit=704c9133520c75b57fd6e9a8d82e0f3e02340590"
-  checksum: a78063ede916c7de561170b924b6d9a6f8aefe5118f3eab1b0966dfdde52b13e138e90ff99d2dfdfd6d0a96f25450bf35d4c2d4fe3493ca54f72af2538b1ca91
-  languageName: node
-  linkType: hard
 
 "postcss-loader@npm:8.1.1":
   version: 8.1.1
