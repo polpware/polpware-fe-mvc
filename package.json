@@ -41,7 +41,7 @@
     "gulp-bump": "^3.2.0",
     "gulp-ignore": "^3.0.0",
     "jasmine": "^5.8.0",
-    "jasmine-core": "~5.8.0",
+    "jasmine-core": "~6.3.0",
     "jasmine-spec-reporter": "~7.0.0",
     "karma": "~6.4.4",
     "karma-chrome-launcher": "~3.2.0",
