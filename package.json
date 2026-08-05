@@ -31,6 +31,7 @@
     "@ngrx/store-devtools": "^21.0.0",
     "@polpware/fe-data": "https://github.com/polpware-frontend-modules/polpware-fe-data.git#ngx21",
     "@polpware/amd-bridge": "https://github.com/polpware-frontend-modules/polpware-amd-bridge.git",
+    "@polpware/tinymce-tailor": "https://github.com/polpware-frontend-modules/polpware-tinymce-util.git#v0.4.0",
     "@polpware/fe-utilities": "https://github.com/polpware-frontend-modules/polpware-fe-utilities.git#ngx21",
     "@types/jasmine": "~5.1.8",
     "@types/node": "^20.11.0",
