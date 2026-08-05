@@ -11,16 +11,16 @@
  * Note that this is an sbtract class; you cannot create an instance of it.
  */
 
-import * as dependencies from '@polpware/fe-dependencies';
-
-const ClassBuilder = dependencies.Class;
+import ClassBuilder from '@polpware/tinymce-tailor/api/util/Class';
 
 import { lift as liftIntoPromise, tojQueryDeferred } from '@polpware/fe-utilities';
 
 import { IViewInstance } from './interfaces';
 import { noopViewInstance } from './noop-view-instance';
 
-const _ = dependencies.underscore;
+import { legacyLibs } from '@polpware/amd-bridge';
+
+const _ = legacyLibs._;
 
 export interface IListMediatorCtorOptions {
     dataProvider?: any;
