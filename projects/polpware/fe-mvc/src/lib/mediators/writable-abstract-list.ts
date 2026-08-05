@@ -5,8 +5,8 @@
  * E.g., add, remove, update
  */
 
+import { legacyLibs } from '@polpware/amd-bridge';
 
-import * as dependencies from '@polpware/fe-dependencies';
 import {
     ListMediator,
     IListMediatorCtorOptions,
@@ -14,8 +14,8 @@ import {
     IListMediatorDev
 } from './abstract-list';
 
-const _ = dependencies.underscore;
-const backbone = dependencies.backbone;
+const _ = legacyLibs._;
+const backbone = legacyLibs.Backbone;
 
 export interface IChangeSet {
     changes: {
